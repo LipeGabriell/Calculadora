@@ -72,3 +72,24 @@ grid-area: 1;
 #division{
     grid-area: 5/3;
 }
+
+#clear {
+    grid-area: 6/2;
+}
+
+#displayAbove{
+    position: absolute;
+    margin: auto auto;
+    left: 60%;
+    font-size: 19px;
+}
+#displayOperation{
+    position: absolute;
+    margin: auto auto;
+    right: 30%;
+    font-size: 50px;
+}
+
+#displayOutput{
+    height: 30px;
+}
